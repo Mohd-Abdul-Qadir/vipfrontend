@@ -95,9 +95,10 @@ const TableProduct = () => {
         <a>
           <DeleteFilled
             onClick={async () => {
-              console.log(data._id);
-              await Product.deleteProduct(data._id);
-              window.location.reload();
+              if(window.confirm("Are you sure you want to delete this product.") === true) {
+                await Product.deleteProduct(data._id);
+                window.location.reload();
+              }
             }}
           />
         </a>
