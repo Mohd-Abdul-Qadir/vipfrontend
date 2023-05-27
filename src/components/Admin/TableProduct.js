@@ -2,9 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Table } from "antd";
 import { DeleteFilled, EditOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
-import UpdateProduct from "./Update";
 import * as Product from "../../api/product";
-import EditProduct from "./EditProduct";
+import EditProduct from "./Product";
 
 const TableProduct = () => {
   const [table, setTable] = useState("");

@@ -1,6 +1,6 @@
 import axios from "axios";
-// const baseUrl = "https://vipcutlery.onrender.com/api";
-const baseUrl = "http://localhost:8080/api";
+import constants from "../constants";
+const baseUrl = constants.BASE_API;
 export const createProduct = async (payload) => {
   const response = await axios.post(baseUrl + "/product", payload);
   // console.log(response);

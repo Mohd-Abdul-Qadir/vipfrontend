@@ -13,7 +13,6 @@ import Contact from "./components/QueryForm/Contact";
 import QueryForm from "./components/QueryForm/QueryForm";
 import SearchList from "./components/SearchList/SearchList";
 import Name from "./Temp";
-import UpdateProduct from "./components/Admin/Update";
 
 function App() {
   return (
@@ -27,7 +26,6 @@ function App() {
         <Route path="/search/:key" element={<SearchList />} />
         <Route path="/category/:key" element={<Category />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/update/:id" element={<UpdateProduct />} />
         <Route path="/about" element={<About />} />
         <Route path="/all-product" element={<AllProduct />} />
       </Routes>
