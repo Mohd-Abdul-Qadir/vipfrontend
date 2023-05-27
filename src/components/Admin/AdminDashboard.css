@@ -1,0 +1,62 @@
+@import url(https://unpkg.com/@webpixels/css@1.1.5/dist/index.css);
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.4.0/font/bootstrap-icons.min.css");
+
+/* .mb-npx {
+  margin-bottom: -1px !important;
+  width: 100%;
+} */
+
+.add-form {
+    position: absolute;
+    top: 250%;
+    right: 2rem;
+    width: 25rem;
+    box-shadow: 0 0.8rem 1rem rgba(0, 0, 0, 0.279);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    z-index: 1000;
+  }
+  .add-form h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #5c60f5;
+  }
+  .add-form .add-box {
+    width: 100%;
+    margin: 1rem 0;
+    background: #eee;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    color: #130f13;
+    text-transform: none;
+  }
+  .add-form p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    color: #666;
+  }
+
+  .add-btn {
+    padding: 0.4rem 1rem;
+    font-family: "Poppins", sans-serif;
+    background: #fff;
+    font-size: 1.1rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid  #5c60f5;
+    color:  #5c60f5;
+    cursor: pointer;
+    text-transform: none;
+  }
+  .add-btn:hover {
+    background-color:  #5c60f5;
+    color: #fff;
+
+
+  }
+  .logo-admin{
+    width: "1000px";
+  }

@@ -1,0 +1,21 @@
+.fixed-bg {
+  background-image: url("../../../public/img/bg.jpg");
+  min-height: 280px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  padding: 0px 20px;
+  /* color: rgb(236, 230, 230); */
+  color: white;
+  background-size: cover;
+}
+.fixed-bg p {
+  color: white;
+  max-width: 850px;
+  text-align: center;
+}

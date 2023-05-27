@@ -1,0 +1,23 @@
+.carousel-inner img {
+  min-height: 250px;
+  max-height: 600px;
+}
+
+.main-carousel {
+  margin-top: 100px;
+}
+/* .banner{
+  height: 100vmin;
+  display: flex;
+} */
+/* .banner{
+  width: 100vw;
+  height: 100vmin;
+  background-color: #ffffff;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  clip-path: polygon(100% 65%, 0% 100%, 100% 100%);
+  max-width: 100%;
+
+} */

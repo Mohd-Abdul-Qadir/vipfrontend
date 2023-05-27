@@ -1,0 +1,130 @@
+.product-detail-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.product-detail-container h2 {
+    text-align: center;
+}
+.product-description {
+    /* padding: 0px 200px; */
+    margin: auto;
+}
+.product-detail {
+    align-self: flex-start;
+    margin-left: 50px;
+}
+.product {
+    display: flex;
+    padding: 0px 200px;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-description p {
+    text-align: justify;
+}
+
+
+@media only screen and (max-width: 1400px) {
+    .product {
+        padding: 0px 100px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .product {
+        padding: 0px 20px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .product {
+        padding: 0px 40px;
+    }
+    .product h1 {
+        font-size: x-large;
+    }
+    .product-detail-container h2 {
+        font-size: large;
+    }
+    .product-detail th,td {
+        font-size: small;
+        
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .product-detail-container {
+        flex-direction: column;
+    }
+    .product-detail {
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .product h1 {
+        font-size: x-large;
+    }
+    .product-detail-container h2 {
+        font-size: x-large;
+    }
+    .product-detail th,td {
+        font-size: large;
+        
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .product {
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .product {
+        padding: 0px 10px;
+    }
+    .image-preview-container {
+        flex-direction: column-reverse;
+    }
+    .image-list {
+        flex-direction: row;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .image-preview img {
+        height: 300px;
+        max-width: 350px;
+    }
+    .image-list img {
+        width: 70px;
+    }
+    .image-list {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .product h1 {
+        font-size: x-large;
+    }
+    .product-detail-container h2 {
+        font-size: large;
+    }
+    .product-detail th,td {
+        font-size: medium;
+        
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .image-preview img {
+        height: 200px;
+        max-width: 250px;
+    }
+    .image-list img {
+        width: 50px;
+    }
+}

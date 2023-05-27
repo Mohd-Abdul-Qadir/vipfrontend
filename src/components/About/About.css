@@ -1,0 +1,147 @@
+.main-container h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.logo-img {
+  display: flex;
+  /* justify-content: center; */
+  width: 200px;
+}
+
+.first-div {
+  margin-top: 20px;
+  letter-spacing: 1.2px;
+  width: 100%;
+  padding: 25px;
+  height: 200px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #ffff;
+  text-align: center;
+  background-color: #999b9f;
+}
+.intro {
+  display: flex;
+  height: 75vh;
+  margin-top: 1rem;
+  background-color: #999b9f;
+}
+.i-left {
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem;
+}
+.i-name {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.i-name > :nth-child(1) {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.i-name > :nth-child(2) {
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 1.1rem;
+}
+.i-name > :nth-child(3) {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.i-name > :nth-child(4) {
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 1.1rem;
+}
+.i-name > :nth-child(5) {
+  color: #ffff;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+.i-name > :nth-child(6) {
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 1.1rem;
+}
+
+.i-icon {
+  margin-top: 3rem;
+  display: flex;
+  gap: 0rem;
+}
+
+.i-right {
+  flex: 1;
+  position: relative;
+}
+.i-right > * {
+  position: absolute;
+  z-index: 1;
+}
+.i-right > :nth-child(1) {
+  transform: scale(0.69);
+  left: 35%;
+  top: -15%;
+  height: 650px;
+  border-radius: 10px;
+  width: 450px;
+}
+@media screen and (max-width: 480px) {
+  .first-div {
+    height: 580px;
+  }
+  .i-right > :nth-child(1) {
+    top: -250px;
+    left: -20px;
+    height: 600;
+    width: 350;
+  }
+  .intro {
+    flex-direction: column;
+    gap: 6rem;
+    height: 70rem;
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+  .i-right .blur {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .first-div {
+    height: 680px;
+  }
+  .i-right > :nth-child(1) {
+    top: -250px;
+    left: -20px;
+    height: 550px;
+  }
+  .intro {
+    flex-direction: column;
+    gap: 6rem;
+    height: 70rem;
+  }
+
+  .i-right {
+    transform: scale(0.8);
+    left: -3rem;
+  }
+  .i-right .blur {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+#typeName,#typePhone,#typeEmail,#typeMessage {
+    margin: 10px;
+}
+#typeSubmit {
+    /* font-size: small; */
+}
+.form-outline {
+    background-color: white;
+}
+
+.quick-enquiry-form {
+    display: inline-block;
+    width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .quick-enquiry-form {
+        width: 350px;
+    }
+  }
+
+
+@media only screen and (max-width: 450px) {
+.quick-enquiry-form {
+    width: 300px;
+}
+}
+
+@media only screen and (max-width: 350px) {
+.quick-enquiry-form {
+    width: 200px;
+}
+}
