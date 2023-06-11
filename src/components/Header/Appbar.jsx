@@ -136,7 +136,8 @@ const Appbar = () => {
       if (
         (searchRef.current || loginRef.current || menuRef.current) &&
         wrapperRef.current &&
-        !wrapperRef.current.contains(event.target)
+        !wrapperRef.current.contains(event.target) &&
+        !document.querySelector('.icons')?.contains(event.target)
       ) {
         setSearch(false);
         setLogin(false);
@@ -181,7 +182,7 @@ const Appbar = () => {
             items,
           }}
         >
-          <a onClick={(e) => e.preventDefault()}>
+          <a onClick={(e) => e.preventDefault()} style={{cursor: 'pointer'}}>
             <Space className="link">Product</Space>
           </a>
         </Dropdown>
